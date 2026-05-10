@@ -1,0 +1,63 @@
+{
+  "judge": "llama-3.3-70b-versatile",
+  "baselines": {
+    "qwen_32b": "qwen/qwen3-32b",
+    "gpt_oss_20b": "openai/gpt-oss-20b"
+  },
+  "finetuned": [
+    "mistral_7b",
+    "qwen_7b",
+    "nemo_12b"
+  ],
+  "total_scored": 20,
+  "wins_all": {
+    "qwen_32b": 8,
+    "gpt_oss_20b": 6,
+    "mistral_7b": 1,
+    "qwen_7b": 0,
+    "nemo_12b": 5
+  },
+  "wins_ft": {
+    "mistral_7b": 1,
+    "qwen_7b": 3,
+    "nemo_12b": 16
+  },
+  "avg_scores": {
+    "qwen_32b": {
+      "accuracy": 8.1,
+      "completeness": 9.0,
+      "clarity": 7.65,
+      "financial_depth": 8.3,
+      "total": 33.05
+    },
+    "gpt_oss_20b": {
+      "accuracy": 6.95,
+      "completeness": 6.45,
+      "clarity": 6.85,
+      "financial_depth": 6.2,
+      "total": 26.45
+    },
+    "mistral_7b": {
+      "accuracy": 6.25,
+      "completeness": 5.6,
+      "clarity": 6.6,
+      "financial_depth": 4.85,
+      "total": 23.3
+    },
+    "qwen_7b": {
+      "accuracy": 6.95,
+      "completeness": 6.25,
+      "clarity": 7.2,
+      "financial_depth": 5.6,
+      "total": 26.0
+    },
+    "nemo_12b": {
+      "accuracy": 7.9,
+      "completeness": 7.3,
+      "clarity": 8.25,
+      "financial_depth": 7.25,
+      "total": 30.7
+    }
+  },
+  "avg_baseline": 29.75
+}

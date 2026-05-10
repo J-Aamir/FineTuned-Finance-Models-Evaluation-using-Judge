@@ -1,0 +1,6 @@
+,Model,Type,Accuracy,Completeness,Clarity,Financial Depth,Total /40
+1,Qwen-32B (Baseline),Baseline,8.1,9.0,7.65,8.3,33.05
+2,Nemo-12B — Curriculum+DPO,Fine-tuned,7.9,7.3,8.25,7.25,30.7
+3,GPT-OSS-20B (Baseline),Baseline,6.95,6.45,6.85,6.2,26.45
+4,Qwen2.5-7B — Improved SFT,Fine-tuned,6.95,6.25,7.2,5.6,26.0
+5,Mistral-7B — Standard SFT,Fine-tuned,6.25,5.6,6.6,4.85,23.3

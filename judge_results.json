@@ -1,0 +1,902 @@
+[
+  {
+    "question": "What is the difference between a stock and a bond?",
+    "scores": {
+      "qwen_32b": {
+        "accuracy": 8,
+        "completeness": 9,
+        "clarity": 8,
+        "financial_depth": 9,
+        "total": 34,
+        "verdict": "Provides a comprehensive and detailed explanation of the difference between stocks and bonds"
+      },
+      "gpt_oss_20b": {
+        "accuracy": 9,
+        "completeness": 9,
+        "clarity": 9,
+        "financial_depth": 9,
+        "total": 36,
+        "verdict": "Offers a clear and well-structured comparison of stocks and bonds, covering key aspects and features"
+      },
+      "mistral_7b": {
+        "accuracy": 7,
+        "completeness": 6,
+        "clarity": 7,
+        "financial_depth": 6,
+        "total": 26,
+        "verdict": "Provides a basic understanding of the difference between stocks and bonds, but lacks depth and detail"
+      },
+      "qwen_7b": {
+        "accuracy": 8,
+        "completeness": 7,
+        "clarity": 8,
+        "financial_depth": 7,
+        "total": 30,
+        "verdict": "Gives a good overview of the difference between stocks and bonds, but could benefit from more detailed explanations and examples"
+      },
+      "nemo_12b": {
+        "accuracy": 6,
+        "completeness": 5,
+        "clarity": 6,
+        "financial_depth": 5,
+        "total": 22,
+        "verdict": "Provides a brief and basic explanation of the difference between stocks and bonds, lacking in detail and financial insight"
+      }
+    }
+  },
+  {
+    "question": "How does compound interest work and why is it important?",
+    "scores": {
+      "qwen_32b": {
+        "accuracy": 8,
+        "completeness": 9,
+        "clarity": 8,
+        "financial_depth": 7,
+        "total": 32,
+        "verdict": "Provides a detailed explanation with examples, but lacks conciseness and polish in presentation"
+      },
+      "gpt_oss_20b": {
+        "accuracy": 9,
+        "completeness": 8,
+        "clarity": 9,
+        "financial_depth": 8,
+        "total": 34,
+        "verdict": "Offers a clear, well-structured explanation with key formulas, but falls short in providing practical applications and examples"
+      },
+      "mistral_7b": {
+        "accuracy": 6,
+        "completeness": 5,
+        "clarity": 6,
+        "financial_depth": 4,
+        "total": 21,
+        "verdict": "Gives a basic overview but lacks depth, clarity, and fails to provide meaningful examples or explanations"
+      },
+      "qwen_7b": {
+        "accuracy": 7,
+        "completeness": 6,
+        "clarity": 7,
+        "financial_depth": 5,
+        "total": 25,
+        "verdict": "Provides a straightforward explanation, but lacks detailed examples and deeper financial insights"
+      },
+      "nemo_12b": {
+        "accuracy": 8,
+        "completeness": 7,
+        "clarity": 8,
+        "financial_depth": 6,
+        "total": 29,
+        "verdict": "Delivers a clear and concise explanation, but could benefit from more detailed examples and a broader range of financial insights"
+      }
+    }
+  },
+  {
+    "question": "What is a P/E ratio and how is it used in stock valuation?",
+    "scores": {
+      "qwen_32b": {
+        "accuracy": 8,
+        "completeness": 9,
+        "clarity": 8,
+        "financial_depth": 9,
+        "total": 34,
+        "verdict": "Provides a comprehensive and detailed explanation of the P/E ratio and its use in stock valuation"
+      },
+      "gpt_oss_20b": {
+        "accuracy": 1,
+        "completeness": 1,
+        "clarity": 1,
+        "financial_depth": 1,
+        "total": 4,
+        "verdict": "Failed to provide a response to the question"
+      },
+      "mistral_7b": {
+        "accuracy": 6,
+        "completeness": 6,
+        "clarity": 7,
+        "financial_depth": 5,
+        "total": 24,
+        "verdict": "Offers a basic explanation of the P/E ratio but lacks depth and clarity in its application to stock valuation"
+      },
+      "qwen_7b": {
+        "accuracy": 7,
+        "completeness": 7,
+        "clarity": 8,
+        "financial_depth": 6,
+        "total": 28,
+        "verdict": "Provides a clear and concise explanation of the P/E ratio and its use in stock valuation, but lacks some details and depth"
+      },
+      "nemo_12b": {
+        "accuracy": 8,
+        "completeness": 8,
+        "clarity": 9,
+        "financial_depth": 8,
+        "total": 33,
+        "verdict": "Delivers a well-structured and insightful explanation of the P/E ratio and its application in stock valuation, but is slightly less comprehensive than the top answer"
+      }
+    }
+  },
+  {
+    "question": "Explain the concept of diversification in investing.",
+    "scores": {
+      "qwen_32b": {
+        "accuracy": 8,
+        "completeness": 9,
+        "clarity": 8,
+        "financial_depth": 9,
+        "total": 34,
+        "verdict": "This response demonstrates a thorough understanding of diversification in investing, covering key concepts and principles."
+      },
+      "gpt_oss_20b": {
+        "accuracy": 9,
+        "completeness": 8,
+        "clarity": 9,
+        "financial_depth": 8,
+        "total": 34,
+        "verdict": "This response provides a clear and well-structured explanation of diversification, including its benefits and theoretical foundations."
+      },
+      "mistral_7b": {
+        "accuracy": 6,
+        "completeness": 5,
+        "clarity": 7,
+        "financial_depth": 4,
+        "total": 22,
+        "verdict": "This response provides a basic understanding of diversification but lacks depth and clarity in its explanation of key concepts."
+      },
+      "qwen_7b": {
+        "accuracy": 7,
+        "completeness": 6,
+        "clarity": 8,
+        "financial_depth": 5,
+        "total": 26,
+        "verdict": "This response offers a straightforward explanation of diversification, but its discussion of financial concepts and strategies is limited."
+      },
+      "nemo_12b": {
+        "accuracy": 8,
+        "completeness": 7,
+        "clarity": 9,
+        "financial_depth": 6,
+        "total": 30,
+        "verdict": "This response provides a clear and concise explanation of diversification, but its analysis of financial concepts and principles could be more detailed and insightful."
+      }
+    }
+  },
+  {
+    "question": "What is inflation and how does it affect purchasing power?",
+    "scores": {
+      "qwen_32b": {
+        "accuracy": 8,
+        "completeness": 9,
+        "clarity": 7,
+        "financial_depth": 8,
+        "total": 32,
+        "verdict": "Provides a detailed explanation of inflation and its effects on purchasing power, covering various aspects and examples."
+      },
+      "gpt_oss_20b": {
+        "accuracy": 9,
+        "completeness": 8,
+        "clarity": 8,
+        "financial_depth": 9,
+        "total": 34,
+        "verdict": "Offers a comprehensive and well-structured overview of inflation, including its definition, measurement, and core drivers, with a high level of financial expertise."
+      },
+      "mistral_7b": {
+        "accuracy": 6,
+        "completeness": 6,
+        "clarity": 6,
+        "financial_depth": 5,
+        "total": 23,
+        "verdict": "Provides a basic understanding of inflation and purchasing power, but lacks depth and clarity in its explanation, with some oversimplifications."
+      },
+      "qwen_7b": {
+        "accuracy": 5,
+        "completeness": 5,
+        "clarity": 5,
+        "financial_depth": 4,
+        "total": 19,
+        "verdict": "Gives a brief and simplistic overview of inflation and its effects on purchasing power, without providing much insight or financial expertise."
+      },
+      "nemo_12b": {
+        "accuracy": 7,
+        "completeness": 7,
+        "clarity": 8,
+        "financial_depth": 7,
+        "total": 29,
+        "verdict": "Explains the concept of inflation and its impact on purchasing power in a clear and concise manner, with a good balance of simplicity and financial insight, but could benefit from more detail and examples."
+      }
+    }
+  },
+  {
+    "question": "What is the difference between a bull market and a bear market?",
+    "scores": {
+      "qwen_32b": {
+        "accuracy": 8,
+        "completeness": 9,
+        "clarity": 8,
+        "financial_depth": 9,
+        "total": 34,
+        "verdict": "Provides a comprehensive and detailed explanation of bull and bear markets, covering various aspects and factors that influence them."
+      },
+      "gpt_oss_20b": {
+        "accuracy": 9,
+        "completeness": 9,
+        "clarity": 9,
+        "financial_depth": 8,
+        "total": 35,
+        "verdict": "Offers a well-structured and concise comparison of bull and bear markets, highlighting key features and drivers of each."
+      },
+      "mistral_7b": {
+        "accuracy": 6,
+        "completeness": 5,
+        "clarity": 7,
+        "financial_depth": 4,
+        "total": 22,
+        "verdict": "Provides a basic definition of bull and bear markets, but lacks depth and fails to address key factors and nuances."
+      },
+      "qwen_7b": {
+        "accuracy": 7,
+        "completeness": 6,
+        "clarity": 8,
+        "financial_depth": 5,
+        "total": 26,
+        "verdict": "Gives a brief and somewhat simplistic explanation of bull and bear markets, but does not fully capture the complexity of the topic."
+      },
+      "nemo_12b": {
+        "accuracy": 8,
+        "completeness": 7,
+        "clarity": 9,
+        "financial_depth": 7,
+        "total": 31,
+        "verdict": "Provides a clear and concise explanation of the difference between bull and bear markets, but could benefit from more detailed analysis and examples."
+      }
+    }
+  },
+  {
+    "question": "How do central banks use interest rates to control inflation?",
+    "scores": {
+      "qwen_32b": {
+        "accuracy": 8,
+        "completeness": 9,
+        "clarity": 7,
+        "financial_depth": 8,
+        "total": 32,
+        "verdict": "Provides a detailed explanation of how central banks use interest rates to control inflation, covering various aspects of monetary policy."
+      },
+      "gpt_oss_20b": {
+        "accuracy": 6,
+        "completeness": 5,
+        "clarity": 6,
+        "financial_depth": 5,
+        "total": 22,
+        "verdict": "Offers a basic understanding of central banks' use of interest rates, but lacks depth and completeness in its explanation."
+      },
+      "mistral_7b": {
+        "accuracy": 5,
+        "completeness": 4,
+        "clarity": 5,
+        "financial_depth": 3,
+        "total": 17,
+        "verdict": "Provides a simplistic and incomplete overview of how central banks use interest rates to control inflation, lacking financial depth and insight."
+      },
+      "qwen_7b": {
+        "accuracy": 7,
+        "completeness": 6,
+        "clarity": 6,
+        "financial_depth": 6,
+        "total": 25,
+        "verdict": "Gives a clear and concise explanation of how central banks use interest rates to control inflation, covering the basics of monetary policy effectively."
+      },
+      "nemo_12b": {
+        "accuracy": 8,
+        "completeness": 7,
+        "clarity": 8,
+        "financial_depth": 7,
+        "total": 30,
+        "verdict": "Delivers a well-structured and insightful explanation of how central banks use interest rates to control inflation, demonstrating a good understanding of monetary policy principles."
+      }
+    }
+  },
+  {
+    "question": "What is dollar-cost averaging and what are its benefits?",
+    "scores": {
+      "qwen_32b": {
+        "accuracy": 8,
+        "completeness": 9,
+        "clarity": 8,
+        "financial_depth": 7,
+        "total": 32,
+        "verdict": "Provides a thorough explanation of dollar-cost averaging and its benefits, but could improve in terms of conciseness and directness."
+      },
+      "gpt_oss_20b": {
+        "accuracy": 9,
+        "completeness": 9,
+        "clarity": 9,
+        "financial_depth": 8,
+        "total": 35,
+        "verdict": "Offers a well-structured and detailed explanation of dollar-cost averaging, including its definition, how it works, and its core benefits, making it a strong response."
+      },
+      "mistral_7b": {
+        "accuracy": 6,
+        "completeness": 6,
+        "clarity": 6,
+        "financial_depth": 5,
+        "total": 23,
+        "verdict": "Provides a basic understanding of dollar-cost averaging but lacks depth and clarity in explaining its benefits and how it works, making it a weaker response."
+      },
+      "qwen_7b": {
+        "accuracy": 7,
+        "completeness": 7,
+        "clarity": 7,
+        "financial_depth": 6,
+        "total": 27,
+        "verdict": "Gives a good overview of dollar-cost averaging and its benefits, but includes some irrelevant information and lacks the polish and detail of stronger responses."
+      },
+      "nemo_12b": {
+        "accuracy": 8,
+        "completeness": 8,
+        "clarity": 8,
+        "financial_depth": 8,
+        "total": 32,
+        "verdict": "Delivers a clear and concise explanation of dollar-cost averaging and its benefits, highlighting its risk reduction and flexibility, but could expand on its analysis for greater depth."
+      }
+    }
+  },
+  {
+    "question": "Explain what an ETF is and how it differs from a mutual fund.",
+    "scores": {
+      "qwen_32b": {
+        "accuracy": 8,
+        "completeness": 9,
+        "clarity": 8,
+        "financial_depth": 9,
+        "total": 34,
+        "verdict": "Provides a comprehensive and detailed explanation of ETFs and mutual funds"
+      },
+      "gpt_oss_20b": {
+        "accuracy": 9,
+        "completeness": 8,
+        "clarity": 7,
+        "financial_depth": 8,
+        "total": 32,
+        "verdict": "Offers a clear and structured comparison of ETFs and mutual funds, but lacks some depth in explanation"
+      },
+      "mistral_7b": {
+        "accuracy": 6,
+        "completeness": 5,
+        "clarity": 6,
+        "financial_depth": 5,
+        "total": 22,
+        "verdict": "Provides a basic overview of ETFs, but lacks detail and comparison with mutual funds"
+      },
+      "qwen_7b": {
+        "accuracy": 7,
+        "completeness": 6,
+        "clarity": 7,
+        "financial_depth": 6,
+        "total": 26,
+        "verdict": "Gives a good introduction to ETFs and their differences from mutual funds, but could be more comprehensive"
+      },
+      "nemo_12b": {
+        "accuracy": 5,
+        "completeness": 4,
+        "clarity": 5,
+        "financial_depth": 4,
+        "total": 18,
+        "verdict": "Provides a brief and basic explanation of ETFs, but fails to deliver a detailed comparison with mutual funds"
+      }
+    }
+  },
+  {
+    "question": "What is the role of the Federal Reserve in the US economy?",
+    "scores": {
+      "qwen_32b": {
+        "accuracy": 8,
+        "completeness": 9,
+        "clarity": 8,
+        "financial_depth": 9,
+        "total": 34,
+        "verdict": "Provides a comprehensive and detailed explanation of the Federal Reserve's role in the US economy"
+      },
+      "gpt_oss_20b": {
+        "accuracy": 7,
+        "completeness": 8,
+        "clarity": 7,
+        "financial_depth": 7,
+        "total": 29,
+        "verdict": "Offers a good overview of the Federal Reserve's functions but lacks depth in certain areas"
+      },
+      "mistral_7b": {
+        "accuracy": 6,
+        "completeness": 6,
+        "clarity": 6,
+        "financial_depth": 5,
+        "total": 23,
+        "verdict": "Provides a basic understanding of the Federal Reserve's role but lacks detail and clarity in its explanation"
+      },
+      "qwen_7b": {
+        "accuracy": 5,
+        "completeness": 5,
+        "clarity": 5,
+        "financial_depth": 4,
+        "total": 19,
+        "verdict": "Gives a brief and simplistic overview of the Federal Reserve's primary goals and functions"
+      },
+      "nemo_12b": {
+        "accuracy": 9,
+        "completeness": 9,
+        "clarity": 9,
+        "financial_depth": 9,
+        "total": 36,
+        "verdict": "Delivers a well-structured, insightful, and comprehensive explanation of the Federal Reserve's role in the US economy"
+      }
+    }
+  },
+  {
+    "question": "What is a balance sheet and what does it tell investors?",
+    "scores": {
+      "qwen_32b": {
+        "accuracy": 9,
+        "completeness": 9,
+        "clarity": 8,
+        "financial_depth": 9,
+        "total": 35,
+        "verdict": "Provides a comprehensive and detailed explanation of the balance sheet and its components"
+      },
+      "gpt_oss_20b": {
+        "accuracy": 8,
+        "completeness": 7,
+        "clarity": 9,
+        "financial_depth": 6,
+        "total": 30,
+        "verdict": "Offers a clear and structured introduction to the balance sheet, but lacks depth in certain areas"
+      },
+      "mistral_7b": {
+        "accuracy": 6,
+        "completeness": 5,
+        "clarity": 7,
+        "financial_depth": 4,
+        "total": 22,
+        "verdict": "Provides a basic overview of the balance sheet, but lacks detail and repetition makes it less effective"
+      },
+      "qwen_7b": {
+        "accuracy": 7,
+        "completeness": 6,
+        "clarity": 8,
+        "financial_depth": 5,
+        "total": 26,
+        "verdict": "Gives a concise explanation of the balance sheet and its relationship to other financial statements"
+      },
+      "nemo_12b": {
+        "accuracy": 8,
+        "completeness": 8,
+        "clarity": 9,
+        "financial_depth": 7,
+        "total": 32,
+        "verdict": "Delivers a well-structured and insightful explanation of the balance sheet and its significance to investors"
+      }
+    }
+  },
+  {
+    "question": "How does quantitative easing work?",
+    "scores": {
+      "qwen_32b": {
+        "accuracy": 8,
+        "completeness": 9,
+        "clarity": 7,
+        "financial_depth": 8,
+        "total": 32,
+        "verdict": "Provides a comprehensive overview of quantitative easing, but lacks clear structure and concise language"
+      },
+      "gpt_oss_20b": {
+        "accuracy": 9,
+        "completeness": 8,
+        "clarity": 9,
+        "financial_depth": 8,
+        "total": 34,
+        "verdict": "Offers a well-structured and clear explanation of quantitative easing, with a good balance of technical detail and accessibility"
+      },
+      "mistral_7b": {
+        "accuracy": 6,
+        "completeness": 5,
+        "clarity": 6,
+        "financial_depth": 4,
+        "total": 21,
+        "verdict": "Provides a basic and somewhat simplistic explanation of quantitative easing, lacking in technical detail and financial insight"
+      },
+      "qwen_7b": {
+        "accuracy": 7,
+        "completeness": 6,
+        "clarity": 7,
+        "financial_depth": 5,
+        "total": 25,
+        "verdict": "Gives a straightforward explanation of quantitative easing, but lacks depth and nuance in its discussion of the topic"
+      },
+      "nemo_12b": {
+        "accuracy": 9,
+        "completeness": 9,
+        "clarity": 9,
+        "financial_depth": 9,
+        "total": 36,
+        "verdict": "Delivers a clear, comprehensive, and insightful explanation of quantitative easing, demonstrating a strong understanding of the subject matter"
+      }
+    }
+  },
+  {
+    "question": "What is the difference between gross profit and net profit?",
+    "scores": {
+      "qwen_32b": {
+        "accuracy": 8,
+        "completeness": 9,
+        "clarity": 7,
+        "financial_depth": 8,
+        "total": 32,
+        "verdict": "Provides a detailed explanation but lacks structure and clarity in some areas"
+      },
+      "gpt_oss_20b": {
+        "accuracy": 9,
+        "completeness": 8,
+        "clarity": 9,
+        "financial_depth": 7,
+        "total": 33,
+        "verdict": "Offers a clear and well-structured explanation with a useful table for reference"
+      },
+      "mistral_7b": {
+        "accuracy": 6,
+        "completeness": 6,
+        "clarity": 6,
+        "financial_depth": 5,
+        "total": 23,
+        "verdict": "Provides a basic explanation but lacks depth and clarity in differentiating between gross and net profit"
+      },
+      "qwen_7b": {
+        "accuracy": 8,
+        "completeness": 8,
+        "clarity": 8,
+        "financial_depth": 7,
+        "total": 31,
+        "verdict": "Gives a clear and concise explanation of the difference between gross and net profit"
+      },
+      "nemo_12b": {
+        "accuracy": 9,
+        "completeness": 9,
+        "clarity": 9,
+        "financial_depth": 9,
+        "total": 36,
+        "verdict": "Provides a well-structured, accurate, and insightful explanation of the difference between gross and net profit"
+      }
+    }
+  },
+  {
+    "question": "What is a credit score and what factors affect it?",
+    "scores": {
+      "qwen_32b": {
+        "accuracy": 8,
+        "completeness": 9,
+        "clarity": 7,
+        "financial_depth": 8,
+        "total": 32,
+        "verdict": "Provides a thorough explanation of credit scores and their factors, but lacks confirmation on exact percentages and has some minor uncertainties."
+      },
+      "gpt_oss_20b": {
+        "accuracy": 1,
+        "completeness": 1,
+        "clarity": 1,
+        "financial_depth": 1,
+        "total": 4,
+        "verdict": "Failed to provide any relevant information about credit scores and their factors."
+      },
+      "mistral_7b": {
+        "accuracy": 9,
+        "completeness": 8,
+        "clarity": 9,
+        "financial_depth": 7,
+        "total": 33,
+        "verdict": "Clearly explains the main factors affecting credit scores, including payment history and credit utilization, but lacks some details on other factors."
+      },
+      "qwen_7b": {
+        "accuracy": 8,
+        "completeness": 6,
+        "clarity": 8,
+        "financial_depth": 6,
+        "total": 28,
+        "verdict": "Provides some key factors affecting credit scores, such as payment history and utilization, but lacks a comprehensive overview of all factors."
+      },
+      "nemo_12b": {
+        "accuracy": 9,
+        "completeness": 7,
+        "clarity": 9,
+        "financial_depth": 8,
+        "total": 33,
+        "verdict": "Clearly and accurately explains the main factors affecting credit scores, including payment history and types of credit used, but could provide more detailed information on each factor."
+      }
+    }
+  },
+  {
+    "question": "Explain the concept of short selling in the stock market.",
+    "scores": {
+      "qwen_32b": {
+        "accuracy": 8,
+        "completeness": 9,
+        "clarity": 7,
+        "financial_depth": 8,
+        "total": 32,
+        "verdict": "Provides a detailed explanation of short selling, covering key components and risks, but lacks polish in presentation"
+      },
+      "gpt_oss_20b": {
+        "accuracy": 9,
+        "completeness": 8,
+        "clarity": 9,
+        "financial_depth": 8,
+        "total": 34,
+        "verdict": "Offers a clear and well-structured explanation of short selling, including mechanics and key points, but is incomplete due to truncation"
+      },
+      "mistral_7b": {
+        "accuracy": 7,
+        "completeness": 6,
+        "clarity": 8,
+        "financial_depth": 6,
+        "total": 27,
+        "verdict": "Provides a basic explanation of short selling, but lacks depth and detail in its discussion of the strategy"
+      },
+      "qwen_7b": {
+        "accuracy": 8,
+        "completeness": 7,
+        "clarity": 8,
+        "financial_depth": 7,
+        "total": 30,
+        "verdict": "Gives a straightforward explanation of short selling, including its purpose and basic process, but does not delve deeply into risks or complexities"
+      },
+      "nemo_12b": {
+        "accuracy": 9,
+        "completeness": 8,
+        "clarity": 9,
+        "financial_depth": 9,
+        "total": 35,
+        "verdict": "Delivers a concise, clear, and insightful explanation of short selling, covering the process and its implications, demonstrating strong financial expertise"
+      }
+    }
+  },
+  {
+    "question": "What is a hedge fund and how does it differ from a mutual fund?",
+    "scores": {
+      "qwen_32b": {
+        "accuracy": 8,
+        "completeness": 9,
+        "clarity": 8,
+        "financial_depth": 7,
+        "total": 32,
+        "verdict": "Provides a comprehensive comparison of hedge funds and mutual funds, covering key differences in structure, strategies, fees, regulation, liquidity, and risk."
+      },
+      "gpt_oss_20b": {
+        "accuracy": 9,
+        "completeness": 8,
+        "clarity": 9,
+        "financial_depth": 8,
+        "total": 34,
+        "verdict": "Offers a detailed and well-structured comparison of hedge funds and mutual funds, including their legal structure, regulation, investor eligibility, and liquidity."
+      },
+      "mistral_7b": {
+        "accuracy": 7,
+        "completeness": 6,
+        "clarity": 7,
+        "financial_depth": 6,
+        "total": 26,
+        "verdict": "Provides a basic overview of hedge funds, including their structure and strategies, but lacks a comprehensive comparison with mutual funds."
+      },
+      "qwen_7b": {
+        "accuracy": 8,
+        "completeness": 7,
+        "clarity": 8,
+        "financial_depth": 7,
+        "total": 30,
+        "verdict": "Gives a clear and concise comparison of hedge funds and mutual funds, covering their investment strategies, risk profiles, and fees, but lacks some details on regulation and liquidity."
+      },
+      "nemo_12b": {
+        "accuracy": 6,
+        "completeness": 5,
+        "clarity": 6,
+        "financial_depth": 5,
+        "total": 22,
+        "verdict": "Provides a limited comparison of hedge funds and mutual funds, covering only a few key differences, and lacks depth and clarity in its explanation."
+      }
+    }
+  },
+  {
+    "question": "What is liquidity risk in financial markets?",
+    "scores": {
+      "qwen_32b": {
+        "accuracy": 9,
+        "completeness": 9,
+        "clarity": 8,
+        "financial_depth": 8,
+        "total": 34,
+        "verdict": "Provides a comprehensive and well-structured explanation of liquidity risk in financial markets"
+      },
+      "gpt_oss_20b": {
+        "accuracy": 8,
+        "completeness": 8,
+        "clarity": 7,
+        "financial_depth": 7,
+        "total": 30,
+        "verdict": "Offers a clear and detailed explanation of liquidity risk, but with some minor omissions and less financial depth"
+      },
+      "mistral_7b": {
+        "accuracy": 6,
+        "completeness": 5,
+        "clarity": 6,
+        "financial_depth": 4,
+        "total": 21,
+        "verdict": "Provides a basic understanding of liquidity risk, but lacks completeness, clarity, and financial depth"
+      },
+      "qwen_7b": {
+        "accuracy": 7,
+        "completeness": 6,
+        "clarity": 7,
+        "financial_depth": 5,
+        "total": 25,
+        "verdict": "Gives a good overview of liquidity risk, but could benefit from more detailed explanations and financial insights"
+      },
+      "nemo_12b": {
+        "accuracy": 8,
+        "completeness": 7,
+        "clarity": 8,
+        "financial_depth": 6,
+        "total": 29,
+        "verdict": "Delivers a clear and concise explanation of liquidity risk, with some good financial insights, but could be more comprehensive"
+      }
+    }
+  },
+  {
+    "question": "How do options contracts work in financial markets?",
+    "scores": {
+      "qwen_32b": {
+        "accuracy": 8,
+        "completeness": 9,
+        "clarity": 7,
+        "financial_depth": 8,
+        "total": 32,
+        "verdict": "Provides a comprehensive overview of options contracts, covering key components and use cases, but lacks conciseness and clarity in some areas"
+      },
+      "gpt_oss_20b": {
+        "accuracy": 7,
+        "completeness": 6,
+        "clarity": 8,
+        "financial_depth": 6,
+        "total": 27,
+        "verdict": "Offers a clear and structured introduction to options, but falls short in covering advanced topics and providing detailed examples"
+      },
+      "mistral_7b": {
+        "accuracy": 6,
+        "completeness": 5,
+        "clarity": 6,
+        "financial_depth": 5,
+        "total": 22,
+        "verdict": "Provides a basic understanding of options, but lacks depth and clarity, and ignores important details such as option pricing and risk factors"
+      },
+      "qwen_7b": {
+        "accuracy": 5,
+        "completeness": 4,
+        "clarity": 5,
+        "financial_depth": 4,
+        "total": 18,
+        "verdict": "Gives a simplistic overview of options, but fails to address key aspects such as expiration dates, strike prices, and the differences between call and put options"
+      },
+      "nemo_12b": {
+        "accuracy": 9,
+        "completeness": 8,
+        "clarity": 9,
+        "financial_depth": 9,
+        "total": 35,
+        "verdict": "Delivers a well-structured, accurate, and insightful explanation of options contracts, covering essential concepts and providing a solid foundation for understanding financial markets"
+      }
+    }
+  },
+  {
+    "question": "What is the yield curve and what does an inverted yield curve signal?",
+    "scores": {
+      "qwen_32b": {
+        "accuracy": 8,
+        "completeness": 9,
+        "clarity": 8,
+        "financial_depth": 9,
+        "total": 34,
+        "verdict": "Provides a comprehensive and well-structured explanation of the yield curve and its inversion, demonstrating strong financial expertise and insight."
+      },
+      "gpt_oss_20b": {
+        "accuracy": 1,
+        "completeness": 1,
+        "clarity": 1,
+        "financial_depth": 1,
+        "total": 4,
+        "verdict": "Fails to provide any explanation or information about the yield curve and its inversion."
+      },
+      "mistral_7b": {
+        "accuracy": 6,
+        "completeness": 6,
+        "clarity": 7,
+        "financial_depth": 5,
+        "total": 24,
+        "verdict": "Offers a basic explanation of the yield curve and its inversion, but lacks depth and clarity in its discussion of the underlying financial concepts."
+      },
+      "qwen_7b": {
+        "accuracy": 7,
+        "completeness": 7,
+        "clarity": 8,
+        "financial_depth": 6,
+        "total": 28,
+        "verdict": "Provides a clear and concise explanation of the yield curve and its inversion, but could benefit from more detailed discussion of the financial theories and historical context."
+      },
+      "nemo_12b": {
+        "accuracy": 8,
+        "completeness": 8,
+        "clarity": 9,
+        "financial_depth": 8,
+        "total": 33,
+        "verdict": "Delivers a well-structured and insightful explanation of the yield curve and its inversion, demonstrating a strong understanding of the underlying financial concepts and risk factors involved."
+      }
+    }
+  },
+  {
+    "question": "What is the difference between fiscal policy and monetary policy?",
+    "scores": {
+      "qwen_32b": {
+        "accuracy": 8,
+        "completeness": 9,
+        "clarity": 8,
+        "financial_depth": 9,
+        "total": 34,
+        "verdict": "Provides a comprehensive and detailed explanation of the difference between fiscal and monetary policy"
+      },
+      "gpt_oss_20b": {
+        "accuracy": 1,
+        "completeness": 1,
+        "clarity": 1,
+        "financial_depth": 1,
+        "total": 4,
+        "verdict": "Failed to provide a response to the question"
+      },
+      "mistral_7b": {
+        "accuracy": 6,
+        "completeness": 6,
+        "clarity": 7,
+        "financial_depth": 5,
+        "total": 24,
+        "verdict": "Provides a basic explanation of the difference between fiscal and monetary policy, but lacks depth and clarity"
+      },
+      "qwen_7b": {
+        "accuracy": 7,
+        "completeness": 7,
+        "clarity": 8,
+        "financial_depth": 6,
+        "total": 28,
+        "verdict": "Provides a clear and concise explanation of the difference between fiscal and monetary policy, but lacks some details"
+      },
+      "nemo_12b": {
+        "accuracy": 8,
+        "completeness": 8,
+        "clarity": 9,
+        "financial_depth": 8,
+        "total": 33,
+        "verdict": "Provides a well-structured and insightful explanation of the difference between fiscal and monetary policy, but is slightly less comprehensive than Qwen-32B"
+      }
+    }
+  }
+]
